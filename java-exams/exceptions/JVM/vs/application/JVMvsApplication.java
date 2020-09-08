@@ -21,6 +21,7 @@ public class JVMvsApplication {
 
     // these are the exceptions typical for the application
     public  static void application () throws   IllegalArgumentException,
+                                                NumberFormatException,
                                                 IllegalStateException,
                                                 SecurityException {
 
