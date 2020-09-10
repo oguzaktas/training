@@ -1,0 +1,53 @@
+﻿@model IEnumerable<ProductRegister.Models.Product>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Product Register</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-outline-success"><i class="far fa-plus-square"></i> Create New Product</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ProductName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProductCode)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Type)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Category)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductCode)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Type)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Category)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ProductId"><i class="fa fa-marker fa-lg"></i></a> |
+                <a asp-action="Details" asp-route-id="@item.ProductId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.ProductId" class="text-danger ml-1" onclick="return confirm('Are you sure to delete this record')"><i class="fa fa-trash fa-lg"></i></a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

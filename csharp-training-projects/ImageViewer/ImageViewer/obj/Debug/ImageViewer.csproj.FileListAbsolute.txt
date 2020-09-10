@@ -1,0 +1,11 @@
+C:\Users\Oguz\source\repos\ImageViewer\ImageViewer\bin\Debug\ImageViewer.exe.config
+C:\Users\Oguz\source\repos\ImageViewer\ImageViewer\bin\Debug\ImageViewer.exe
+C:\Users\Oguz\source\repos\ImageViewer\ImageViewer\bin\Debug\ImageViewer.pdb
+C:\Users\Oguz\source\repos\ImageViewer\ImageViewer\obj\Debug\ImageViewer.csprojAssemblyReference.cache
+C:\Users\Oguz\source\repos\ImageViewer\ImageViewer\obj\Debug\ImageViewer.Main.resources
+C:\Users\Oguz\source\repos\ImageViewer\ImageViewer\obj\Debug\ImageViewer.Properties.Resources.resources
+C:\Users\Oguz\source\repos\ImageViewer\ImageViewer\obj\Debug\ImageViewer.Viewer.resources
+C:\Users\Oguz\source\repos\ImageViewer\ImageViewer\obj\Debug\ImageViewer.csproj.GenerateResource.cache
+C:\Users\Oguz\source\repos\ImageViewer\ImageViewer\obj\Debug\ImageViewer.csproj.CoreCompileInputs.cache
+C:\Users\Oguz\source\repos\ImageViewer\ImageViewer\obj\Debug\ImageViewer.exe
+C:\Users\Oguz\source\repos\ImageViewer\ImageViewer\obj\Debug\ImageViewer.pdb
