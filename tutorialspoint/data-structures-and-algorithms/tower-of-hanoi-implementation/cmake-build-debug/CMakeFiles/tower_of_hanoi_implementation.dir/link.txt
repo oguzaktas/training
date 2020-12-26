@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/tower_of_hanoi_implementation.dir/main.c.o  -o tower_of_hanoi_implementation 

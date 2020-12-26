@@ -1,0 +1,4 @@
+/home/oguz/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.7319.72/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/oguz/CLionProjects/bubble-sort-implementation
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/oguz/CLionProjects/bubble-sort-implementation/cmake-build-debug

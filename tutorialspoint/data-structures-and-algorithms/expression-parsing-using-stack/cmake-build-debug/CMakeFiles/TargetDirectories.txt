@@ -1,0 +1,3 @@
+/home/oguz/CLionProjects/expression-parsing-using-stack/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/oguz/CLionProjects/expression-parsing-using-stack/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/oguz/CLionProjects/expression-parsing-using-stack/cmake-build-debug/CMakeFiles/expression_parsing_using_stack.dir

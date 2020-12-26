@@ -1,0 +1,4 @@
+/home/oguz/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/203.5981.166/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/oguz/CLionProjects/shell-sort-implementation
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/oguz/CLionProjects/shell-sort-implementation/cmake-build-debug

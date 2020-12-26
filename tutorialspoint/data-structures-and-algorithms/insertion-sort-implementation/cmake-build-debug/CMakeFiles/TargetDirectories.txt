@@ -1,0 +1,3 @@
+/home/oguz/CLionProjects/insertion-sort-implementation/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/oguz/CLionProjects/insertion-sort-implementation/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/oguz/CLionProjects/insertion-sort-implementation/cmake-build-debug/CMakeFiles/insertion_sort_implementation.dir

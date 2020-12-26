@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/expression_parsing_using_stack.dir/main.c.o  -o expression_parsing_using_stack 

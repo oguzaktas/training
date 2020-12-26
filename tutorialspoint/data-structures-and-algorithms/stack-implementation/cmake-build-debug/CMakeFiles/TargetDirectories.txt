@@ -1,0 +1,3 @@
+/home/oguz/CLionProjects/stack-implementation/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/oguz/CLionProjects/stack-implementation/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/oguz/CLionProjects/stack-implementation/cmake-build-debug/CMakeFiles/stack_implementation.dir

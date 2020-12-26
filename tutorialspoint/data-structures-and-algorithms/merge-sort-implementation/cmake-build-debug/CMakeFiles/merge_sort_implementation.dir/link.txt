@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/merge_sort_implementation.dir/main.c.o  -o merge_sort_implementation 

@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/insertion_sort_implementation.dir/main.c.o  -o insertion_sort_implementation 
