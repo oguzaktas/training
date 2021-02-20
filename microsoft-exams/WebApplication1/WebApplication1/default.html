@@ -1,0 +1,2154 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Default</title>
+    <script src="Scripts/default.js"></script>
+    <link rel="stylesheet" type="text/css" href="default.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="Content/default.css" /> -->
+    <!--
+    <link rel='stylesheet' type='text/css' href='Content/screen.css' media='screen' />
+    <link rel='stylesheet' type='text/css' href='Content/printer.css' media='print' />
+    -->
+    <style>
+        body {
+            background-color: white;
+            color: black;
+        }
+
+        .all-browsers {
+            margin: 0;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+            .all-browsers > h1, .browser {
+                margin: 10px;
+                padding: 5px;
+            }
+
+        .browser {
+            background: white;
+        }
+
+            .browser > h2, p {
+                margin: 15px;
+                font-size: 90%;
+            }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $document.ready(function () {
+            $("#btnj1").click(function () {
+                $("#testj1").text("Hello World");
+            });
+            $("#btnj2").click(function () {
+                $("#testj2").html("<b>Hello world!</b>");
+            });
+            $("#btnj3").click(function () {
+                $("#testj3").val("Dolly Duck");
+            });
+        });
+    </script>
+</head>
+<body onload="checkCookies()">
+    <input id='txtName' name='txtName' type='text' class='myStyle' />
+    <button id='btnOk' class='myStyle'>Ok</button>
+    <button id='btnSave'>Save</button>
+    <button id='btnCancel' class='myStyle'>Cancel</button>
+    <h1>
+        The h1 child before the first div
+    </h1>
+    <div>
+        some child content
+        <h1>
+            This is the first h1 child
+        </h1>
+        <div>another div here</div>
+        some text after the div
+        <h1>
+            This is the second h1 child
+        </h1>
+        <h1>
+            This is the third h1 child
+        </h1>
+    </div>
+    some following content
+    <span>here is a span</span>
+    <h1>
+        This the first h1 that follows the paragraph
+    </h1>
+    <h1>
+        This the second h1 that follows the paragraph
+    </h1>
+    <h1>
+        This the third h1 that follows the paragraph
+    </h1>
+    <a href='sales/default.html'>Link 1</a><br />
+    <a href='http://microsoft.com'>Link 2</a><br />
+    <a href='default.html'>Link 3</a><br />
+    <a href="default.jpg">Link 4</a><br />
+    <br />
+    <p>
+        this is the third div - Lorem ipsum dolor sit amet, salutandi
+        conceptam sea cu, eos id legimus percipit argumentum. Habeo
+        ipsum mandamus sit an, aeterno pertinax vim ad, et cibo
+        atomorum mea. Ad vis illum porro disputando, ei eligendi
+        mandamus liberavisse sea. Sea debet comprehensam no, et
+        blandit officiis eos, ut per ubique abhorreant
+    </p>
+    <div id="div1">
+        <p>this is the first div</p>
+    </div>
+    <div id="div2">
+        <p>this is the second div</p>
+        <div id="div3">
+            <p>
+                this is the third div - Lorem ipsum dolor sit amet, salutandi
+                conceptam sea cu, eos id legimus percipit argumentum. Habeo
+                ipsum mandamus sit an, aeterno pertinax vim ad, et cibo
+                atomorum mea. Ad vis illum porro disputando, ei eligendi
+                mandamus liberavisse sea. Sea debet comprehensam no, et
+                blandit officiis eos, ut per ubique abhorreant
+            </p>
+        </div>
+        <div id="div4">
+            <p>
+                this is the fourth div - Ignota impetus sadipscing sed ut,
+                sed ea alia menandri imperdiet. Te inani suscipiantur duo,
+                ad mei utroque accusata. Has veri dolores assueverit cu,
+                ad vocent fuisset expetenda quo. Vim id quot aliquid, ea
+                iisque gloriatur mei, eos ea ludus graeci melius. Saepe
+                accusam pericula cu usu, eos at alia everti.
+            </p>
+        </div>
+        <div id="div5">
+            <p>
+                this is the fifth div - Ei duo viderer legendos, fastidii
+                eligendi ad usu, audire accusamus te vel. Ullum referrentur
+                mei at, qui tota reque neglegentur ne. Ius eu minim
+                copiosae, malorum antiopam voluptaria te vel, nemore
+                eruditi fastidii nec te. Eos id prima ridens, prompta
+                alterum conclusionemque eu duo. Et vis elaboraret quaerendum.
+                Repudiare interesset his ad, vis facete commune ne.
+            </p>
+        </div>
+    </div>
+    <div id="div6">
+        <p>
+            this is the sixth div
+        </p>
+    </div>
+    <header>
+        <hgroup>
+            <h1>Primary Header</h1>
+            <h2>seconday header</h2>
+        </hgroup>
+        <img src='logo.jpg' alt='Company Logo' />
+    </header>
+    <a href="javascript:alert('Hello World!');"><mark>Execute</mark> JavaScript</a><br />
+    <table>
+        <tr>
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>Alfreds Futterkiste</td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
+        </tr>
+        <tr>
+            <td>Ernst Handel</td>
+            <td>Roland Mendel</td>
+            <td>Austria</td>
+        </tr>
+        <tr>
+            <td>Laughing Bacchus Winecellars</td>
+            <td>Yoshi Tannamuri</td>
+            <td>Canada</td>
+        </tr>
+        <tr>
+            <td>Magazzini Alimentari Riuniti</td>
+            <td>Giovanni Rovelli</td>
+            <td>Italy</td>
+        </tr>
+    </table>
+    <br />
+    <table>
+        <tr>
+            <th>9am</th>
+            <th>10am</th>
+            <th>11am</th>
+            <th>12am</th>
+        </tr>
+        <tr>
+            <th>Monday</th>
+            <td colspan="2">Geography</td>
+            <td>Math</td>
+            <td>Art</td>
+        </tr>
+        <tr>
+            <th>Tuesday</th>
+            <td colspan="3">Gym</td>
+            <td>Home Ec</td>
+        </tr>
+    </table>
+    <code>
+        x = 5;
+        y = 6;
+        z = x + y;
+    </code>
+    <p>Enter a <kbd>number</kbd></p> <!-- <kbd> for keyboard input (browser's default monospace font) -->
+    <p>Message from computer: </p>
+    <p><samp>File not found.<br /></samp></p> <!-- <samp> element is used to define sample output -->
+    <!-- defining variable in programming or in a mathematical expression --><p>The area of square is <var>x</var><sup>2</sup></p>
+    <article class="all-browsers">
+        <h1>Most Popular Browsers</h1>
+        <article class="browser">
+            <h2>Google Chrome</h2>
+            <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+        </article>
+        <article class="browser">
+            <h2>Mozilla Firefox</h2>
+            <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+        </article>
+        <article class="browser">
+            <h2>Microsoft Edge</h2>
+            <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+        </article>
+    </article>
+    <!-- creating an inline style -->
+    <!-- <body style='background-color: white; color: gray;'></body> -->
+    <p>I will display A B C</p>
+    <p>I will display &#65; &#66; &#67; &#128516;</p>
+    <h1>Sized Emojis</h1>
+    <p style="font-size:48px">&#128512; &#128516; &#128525; &#128151;</p>
+    <h2>Text input fields</h2>
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe">
+    </form>
+    <h2>Radio Buttons</h2>
+    <form>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+    </form>
+    <h2>Checkboxes</h2>
+    <p>The <strong>input type="checkbox"</strong> defines a checkbox:</p>
+    <form action="/action_page.php">
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I have a bike</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> I have a car</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> I have a boat</label><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <h2>The form autocomplete attribute</h2>
+    <form action="/action_page.php" autocomplete="on">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email"><br><br>
+        <input type="submit">
+    </form>
+    <h2>The select Element</h2>
+    <form action="/action_page.php">
+        <label for="cars">Choose a car:</label>
+        <select id="cars" name="cars" size="2" multiple>
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+        </select>
+        <input type="submit">
+    </form>
+    <h2>Textarea</h2>
+    <form action="/action_page.php">
+        <textarea name="message" rows="10" cols="30">The cat was playing in the garden.</textarea><br>
+        <input type="submit">
+    </form>
+    <h2>fieldset and legend elements</h2>
+    <form action="/action_page.php">
+        <fieldset>
+            <legend>Personalia:</legend>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="John"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe"><br><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+    <h2>The datalist Element</h2>
+    <form action="/action_page.php">
+        <input list="browsers" name="browser">
+        <datalist id="browsers">
+            <option value="Internet Explorer">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+        </datalist>
+        <input type="submit">
+    </form>
+    <h2>The output Element</h2>
+    <form action="/action_page.php" oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+        0
+        <input type="range" id="a" name="a" value="50">
+        100 +
+        <input type="number" id="b" name="b" value="50">
+        =
+        <output name="x" for="a b"></output>
+        <br><br>
+        <input type="submit">
+    </form>
+    <h2>Reset Button</h2>
+    <p>The <strong>input type="reset"</strong> defines a reset button that resets all form values to their default values:</p>
+    <form action="/action_page.php">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe"><br><br>
+        <input type="submit" value="Submit">
+        <input type="reset">
+    </form><br />
+    <input type="button" onclick="alert('Hello World!')" value="Click Me!">
+    <h2>Show a Color Picker</h2>
+    <p>The <strong>input type="color"</strong> is used for input fields that should contain a color.</p>
+    <form action="/action_page.php">
+        <label for="favcolor">Select your favorite color:</label>
+        <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+        <input type="submit" value="Submit">
+    </form>
+    <h2>Date Field</h2>
+    <p>The <strong>input type="date"</strong> is used for input fields that should contain a date.</p>
+    <form action="/action_page.php">
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday">
+        <input type="submit" value="Submit">
+    </form>
+    <h2>Local Date Field</h2>
+    <p>The <strong>input type="datetime-local"</strong> specifies a date and time input field, with no time zone.</p>
+    <form action="/action_page.php">
+        <label for="birthdaytime">Birthday (date and time):</label>
+        <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+        <input type="submit" value="Submit">
+    </form>
+    <p><strong>Note:</strong> type="datetime-local" is not supported in Firefox, Safari or Internet Explorer 12 (or earlier).</p>
+    <h2>Numeric Steps</h2>
+    <p>Depending on browser support: Fixed steps will apply in the input field.</p>
+    <form action="/action_page.php">
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" min="0" max="100" step="10" value="30">
+        <input type="submit" value="Submit">
+    </form>
+    <h2>Range Field</h2>
+    <p>Depending on browser support: The input type "range" can be displayed as a slider control.</p>
+    <form action="/action_page.php" method="get">
+        <label for="vol">Volume (between 0 and 50):</label>
+        <input type="range" id="vol" name="vol" min="0" max="50">
+        <input type="submit" value="Submit">
+    </form>
+    <h2>Display a URL Input Field</h2>
+    <p>The <strong>input type="url"</strong> is used for input fields that should contain a URL address:</p>
+    <form action="/action_page.php">
+        <label for="homepage">Add your homepage:</label>
+        <input type="url" id="homepage" name="homepage">
+        <input type="submit" value="Submit">
+    </form>
+    <h2>The input min and max attributes</h2>
+    <p>The min and max attributes specify the minimum and maximum values for an input element.</p>
+    <form action="/action_page.php">
+        <label for="datemax">Enter a date before 1980-01-01:</label>
+        <input type="date" id="datemax" name="datemax" max="1979-12-31"><br><br>
+        <label for="datemin">Enter a date after 2000-01-01:</label>
+        <input type="date" id="datemin" name="datemin" min="2000-01-02"><br><br>
+        <label for="quantity">Quantity (between 1 and 5):</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="5"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <h2>The input pattern attribute</h2>
+    <p>The pattern attribute specifies a regular expression that the input element's value is checked against.</p>
+    <form action="/action_page.php">
+        <label for="country_code">Country code:</label>
+        <input type="text" id="country_code" name="country_code" pattern="[A-Za-z]{3}" title="Three letter country code"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <h2>The input placeholder attribute</h2>
+    <p>The placeholder attribute specifies a short hint that describes the expected value of an input field.</p>
+    <form action="/action_page.php">
+        <label for="phone">Enter a phone number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <h2>The input step attribute</h2>
+    <p>The step attribute specifies the legal number intervals for an input element.</p>
+    <form action="/action_page.php">
+        <label for="points">Points:</label>
+        <input type="number" id="points" name="points" step="3" />
+        <input type="submit" value="Submit" />
+    </form>
+    <h2>The input formaction attribute</h2>
+    <p>The formaction attribute specifies the URL of a file that will process the input when the form is submitted.</p>
+    <form action="/action_page.php">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="Submit">
+        <input type="submit" formaction="/action_page2.php" value="Submit as Admin">
+    </form>
+    <h2>The input formenctype attribute</h2>
+    <p>The formenctype attribute specifies how the form data should be encoded when submitted.</p>
+    <form action="/action_page_binary.asp" method="post">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <input type="submit" value="Submit">
+        <input type="submit" formenctype="multipart/form-data" value="Submit as Multipart/form-data">
+    </form>
+    <h2>The input formmethod Attribute</h2>
+    <p>The formmethod attribute defines the HTTP method for sending form-data to the action URL.</p>
+    <form action="/action_page.php" method="get" target="_blank">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="Submit using GET">
+        <input type="submit" formmethod="post" value="Submit using POST"> <!-- formmethod works with submit and image input types -->
+    </form>
+    <h2>The input formtarget attribute</h2>
+    <p>The formtarget attribute specifies a name or a keyword that indicates where to display the response that is received after submitting the form.</p>
+    <form action="/action_page.php">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="Submit">
+        <input type="submit" formtarget="_blank" value="Submit to a new window/tab">
+    </form>
+    <h2>The input formnovalidate attribute (overrides novalidate attribute of form element)</h2>
+    <form action="/action_page.php">
+        <label for="email">Enter your email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <input type="submit" value="Submit">
+        <input type="submit" formnovalidate="formnovalidate" value="Submit without validation">
+    </form>
+    <h2>The form novalidate attribute</h2>
+    <p>The novalidate attribute specifies that the form data should not be validated when submitted.</p>
+    <form action="/action_page.php" novalidate>
+        <label for="email">Enter your email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <canvas id="myCanvas" width="200" height="150" style="border: 1px solid black;">
+        Your browser does not support the HTML canvas tag.
+    </canvas>
+    <script>
+        var canvas = document.getElementById("myCanvas");
+        var context = canvas.getContext("2d");
+        context.moveTo(0, 0);
+        context.lineTo(200, 150);
+        context.stroke();
+    </script>
+    <!-- draw a circle -->
+    <script>
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        ctx.beginPath();
+        ctx.arc(95, 50, 40, 0, 2 * Math.PI);
+        ctx.stroke();
+        ctx.font = "30px Arial";
+        ctx.fillText("Hello World", 10, 50);
+    </script>
+    <!-- linear gradient -->
+    <script>
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        ctx.beginPath();
+        var grd = ctx.createLinearGradient(0, 0, 200, 0);
+        grd.addColorStop(0, "red");
+        grd.addColorStop(1, "blue");
+        ctx.fillStyle = grd;
+        ctx.fillRect(10, 10, 150, 80);
+    </script>
+    <!-- circular gradient -->
+    <script>
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        ctx.beginPath();
+        var grd = ctx.createRadialGradient(75, 50, 5, 90, 60, 100);
+        grd.addColorStop(0, "red");
+        grd.addColorStop(1, "blue");
+        ctx.fillStyle = grd;
+        ctx.fillRect(10, 10, 150, 80);
+    </script>
+    <script>
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        var img = document.getElementById("scream");
+        ctx.drawImage(img, 10, 10);
+    </script>
+    <br />
+    <!-- SVG Circle -->
+    <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="blue" />
+    </svg>
+    <br />
+    <!-- SVG Rectangle -->
+    <svg width="400" height="100">
+        <rect width="400" height="100" style="fill:rgb(0,0,255);stroke-width:10;stroke:rgb(0,0,0)" />
+    </svg>
+    <br />
+    <!-- SVG Rounded Rectangle -->
+    <svg width="400" height="180">
+        <rect x="50" y="20" rx="20" ry="20" width="150" height="150" style="fill:red;stroke:black;stroke-width:5;opacity:0.5" />
+    </svg>
+    <br />
+    <!-- SVG Star -->
+    <svg width="300" height="200">
+        <polygon points="100,10 40,198 190, 78 10, 78 160,198" style="fill:blue;stroke:purple;stroke-width:5;fill-rule:evenodd;" />
+    </svg>
+    <!-- SVG Logo -->
+    <svg height="130" width="500">
+        <defs>
+            <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
+                <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+            </linearGradient>
+        </defs>
+        <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+        <text fill="#ffffff" font-size="45" font-family="Verdana" x="50" y="86">SVG</text>
+        Sorry, your browser does not support inline SVG.
+    </svg>
+    <br />
+    <video width="400" controls>
+        <source src="mov_bbb.mp4" type="video/mp4" />
+        <source src="mov_bbb.ogg" type="video/ogg" />
+        Your browser does not support HTML video.
+    </video>
+    <p>Video courtesy of <a href="https://www.bigbuckbunny.org/" target="_blank">Big Buck Bunny</a>.</p>
+    <br /><br />
+    <div style="text-align:center">
+        <button onclick="playPause()">Play/Pause</button>
+        <button onclick="makeBig()">Big</button>
+        <button onclick="makeSmall()">Small</button>
+        <button onclick="makeNormal()">Normal</button>
+        <br><br>
+        <video id="video1" width="420">
+            <source src="mov_bbb.mp4" type="video/mp4">
+            <source src="mov_bbb.ogg" type="video/ogg">
+            Your browser does not support HTML video.
+        </video>
+    </div>
+    <script>
+        var myVideo = document.getElementById("video1");
+        function playPause() {
+            if (myVideo.paused)
+                myVideo.play();
+            else
+                myVideo.pause();
+        }
+        function makeBig() {
+            myVideo.width = 560;
+        }
+        function makeSmall() {
+            myVideo.width = 320;
+        }
+        function makeNormal() {
+            myVideo.width = 420;
+        }
+    </script>
+    <p>Video courtesy of <a href="https://www.bigbuckbunny.org/" target="_blank">Big Buck Bunny</a>.</p>
+    <br />
+    <audio controls>
+        <source src="horse.ogg" type="audio/ogg" />
+        <source src="horse.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+    </audio>
+    <br />
+    <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+    <br /><br />
+    <p>Click the button to get your coordinates.</p>
+    <button onclick="getLocation()">Try It</button>
+    <p id="demo"></p>
+    <script>
+        var x = document.getElementById("demo");
+        function getLocation() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(showPosition);
+                // navigator.geolocation.watchPosition(showPosition);
+            } else {
+                x.innerHTML = "Geolocation is not supported by this browser.";
+            }
+        }
+        function showPosition(position) {
+            x.innerHTML = "Latitude: " + position.coords.latitude +
+                "<br>Longitude: " + position.coords.longitude;
+            var latlon = position.coords.latitude + "," + position.coords.longitude;
+            var img_url = "https://maps.googleapis.com/maps/api/staticmap?center=" + latlon + "&zoom=14&size=400x300&sensor=false&key=YOUR_KEY";
+            document.getElementById("mapholder").innerHTML = "<img src='" + img_url + "'>";
+        }
+        function showError(error) {
+            switch (error.code) {
+                case error.PERMISSION_DENIED:
+                    x.innerHTML = "User denied the request for Geolocation."
+                    break;
+                case error.POSITION_UNAVAILABLE:
+                    x.innerHTML = "Location information is unavailable."
+                    break;
+                case error.TIMEOUT:
+                    x.innerHTML = "The request to get user location timed out."
+                    break;
+                case error.UNKNOWN_ERROR:
+                    x.innerHTML = "An unknown error occurred."
+                    break;
+            }
+        }
+    </script>
+    <br />
+    <style>
+        #div1 {
+            width: 350px;
+            height: 70px;
+            padding: 10px;
+            border: 1px solid #aaaaaa;
+        }
+    </style>
+    <script>
+        function allowDrop(ev) {
+            ev.preventDefault();
+        }
+
+        function drag(ev) {
+            ev.dataTransfer.setData("text", ev.target.id);
+        }
+
+        function drop(ev) {
+            ev.preventDefault();
+            var data = ev.dataTransfer.getData("text");
+            ev.target.appendChild(document.getElementById(data));
+        }
+    </script>
+    <p>Drag the W3Schools image into the rectangle:</p>
+    <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <br>
+    <img id="drag1" src="https://www.w3schools.com/html/img_logo.gif" draggable="true" ondragstart="drag(event)" width="336" height="69">
+    <br />
+    <style>
+        #div2, #div3 {
+            float: left;
+            width: 100px;
+            height: 35px;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid black;
+        }
+    </style>
+    <script>
+        function allowDrop(ev) {
+            ev.preventDefault();
+        }
+
+        function drag(ev) {
+            ev.dataTransfer.setData("text", ev.target.id);
+        }
+
+        function drop(ev) {
+            ev.preventDefault();
+            var data = ev.dataTransfer.getData("text");
+            ev.target.appendChild(document.getElementById(data));
+        }
+    </script>
+    <h2>Drag and Drop</h2>
+    <p>Drag the image back and forth between the two div elements.</p>
+    <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img src="https://www.w3schools.com/html/img_w3slogo.gif" draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31">
+    </div>
+    <div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <br /><br /><br /><br /><br />
+    <div id="result"></div>
+    <script>
+        // Check browser support
+        if (typeof (Storage) !== "undefined") {
+            // Store
+            localStorage.setItem("lastname", "Smith");
+            // Retrieve
+            document.getElementById("result").innerHTML = localStorage.getItem("lastname");
+        } else {
+            document.getElementById("result").innerHTML = "Sorry, your browser does not support Web Storage...";
+        }
+    </script>
+    <br />
+    <script>
+        function clickCounter() {
+            if (typeof (Storage) !== "undefined") {
+                if (sessionStorage.clickcount) {
+                    sessionStorage.clickcount = Number(sessionStorage.clickcount) + 1;
+                } else {
+                    sessionStorage.clickcount = 1;
+                }
+                document.getElementById("result2").innerHTML = "You have clicked the button " + sessionStorage.clickcount + " time(s) in this session.";
+            } else {
+                document.getElementById("result2").innerHTML = "Sorry, your browser does not support web storage...";
+            }
+        }
+    </script>
+    <p><button onclick="clickCounter()" type="button">Click me!</button></p>
+    <div id="result2"></div>
+    <p>Click the button to see the counter increase.</p>
+    <p>Close the browser tab (or window), and try again, and the counter is reset.</p>
+    <br />
+    <script>
+        var w;
+        function startWorker() {
+            if (typeof (Worker) !== "undefined") {
+                if (typeof (w) == "undefined") {
+                    w = new Worker("https://www.w3schools.com/html/demo_workers.js");
+                }
+                w.onmessage = function (event) {
+                    document.getElementById("result3").innerHTML = event.data;
+                };
+            } else {
+                document.getElementById("result3").innerHTML = "Sorry, your browser does not support Web Workers...";
+            }
+        }
+        function stopWorker() {
+            w.terminate();
+            w = undefined;
+        }
+    </script>
+    <p>Count numbers: <output id="result3"></output></p>
+    <button onclick="startWorker()">Start Worker</button>
+    <button onclick="stopWorker()">Stop Worker</button>
+    <p><strong>Note:</strong> Internet Explorer 9 and earlier versions do not support Web Workers.</p>
+    <br />
+    <h1 style="border: 2px solid Tomato;">Hello World</h1>
+    <h1 style="background-color:rgb(255, 99, 71);">rgb(255, 99, 71)</h1>
+    <h1 style="background-color:#ff6347;">#ff6347</h1>
+    <h1 style="background-color:hsl(9, 100%, 64%);">hsl(9, 100%, 64%)</h1>
+    <h1 style="background-color:tomato;">tomato</h1>
+    <p>Same as color name "Tomato", but 50% transparent:</p>
+    <h1 style="background-color:rgba(255, 99, 71, 0.5);">rgba(255, 99, 71, 0.5)</h1>
+    <h1 style="background-color:hsla(9, 100%, 64%, 0.5);">hsla(9, 100%, 64%, 0.5)</h1>
+    <h1 style="background-color:hsl(0, 100%, 50%);">hsl(0, 100%, 50%)</h1>
+    <h1 style="background-color:hsl(0, 80%, 50%);">hsl(0, 80%, 50%)</h1>
+    <h1 style="background-color:hsl(0, 60%, 50%);">hsl(0, 60%, 50%)</h1>
+    <h1 style="background-color:hsl(0, 40%, 50%);">hsl(0, 40%, 50%)</h1>
+    <h1 style="background-color:hsl(0, 20%, 50%);">hsl(0, 20%, 50%)</h1>
+    <h1 style="background-color:hsl(0, 0%, 50%);">hsl(0, 0%, 50%)</h1>
+    <h1 style="background-color:hsl(0, 100%, 0%);">hsl(0, 100%, 0%)</h1>
+    <h1 style="background-color:hsl(0, 100%, 25%);">hsl(0, 100%, 25%)</h1>
+    <h1 style="background-color:hsl(0, 100%, 50%);">hsl(0, 100%, 50%)</h1>
+    <h1 style="background-color:hsl(0, 100%, 75%);">hsl(0, 100%, 75%)</h1>
+    <h1 style="background-color:hsl(0, 100%, 90%);">hsl(0, 100%, 90%)</h1>
+    <h1 style="background-color:hsl(0, 100%, 100%);">hsl(0, 100%, 100%)</h1>
+    <h1 style="background-color:hsla(9, 100%, 64%, 0);">hsla(9, 100%, 64%, 0)</h1>
+    <h1 style="background-color:hsla(9, 100%, 64%, 0.2);">hsla(9, 100%, 64%, 0.2)</h1>
+    <h1 style="background-color:hsla(9, 100%, 64%, 0.4);">hsla(9, 100%, 64%, 0.4)</h1>
+    <h1 style="background-color:hsla(9, 100%, 64%, 0.6);">hsla(9, 100%, 64%, 0.6)</h1>
+    <h1 style="background-color:hsla(9, 100%, 64%, 0.8);">hsla(9, 100%, 64%, 0.8)</h1>
+    <h1 style="background-color:hsla(9, 100%, 64%, 1);">hsla(9, 100%, 64%, 1)</h1>
+    <style>
+        p.dotted {
+            border-style: dotted;
+        }
+
+        p.dashed {
+            border-style: dashed;
+        }
+
+        p.solid {
+            border-style: solid;
+        }
+
+        p.double {
+            border-style: double;
+        }
+
+        p.groove {
+            border-style: groove;
+        }
+
+        p.ridge {
+            border-style: ridge;
+        }
+
+        p.inset {
+            border-style: inset;
+        }
+
+        p.outset {
+            border-style: outset;
+        }
+
+        p.none {
+            border-style: none;
+        }
+
+        p.hidden {
+            border-style: hidden;
+        }
+
+        p.mix {
+            border-style: dotted dashed solid double;
+        }
+    </style>
+    <p class="dotted">A dotted border.</p>
+    <p class="dashed">A dashed border.</p>
+    <p class="solid">A solid border.</p>
+    <p class="double">A double border.</p>
+    <p class="groove">A groove border.</p>
+    <p class="ridge">A ridge border.</p>
+    <p class="inset">An inset border.</p>
+    <p class="outset">An outset border.</p>
+    <p class="none">No border.</p>
+    <p class="hidden">A hidden border.</p>
+    <p class="mix">A mixed border.</p>
+    <style>
+        p.normal {
+            border: 2px solid red;
+        }
+
+        p.round1 {
+            border: 2px solid red;
+            border-radius: 5px;
+        }
+
+        p.round2 {
+            border: 2px solid red;
+            border-radius: 8px;
+        }
+
+        p.round3 {
+            border: 2px solid red;
+            border-radius: 12px;
+        }
+    </style>
+    <p class="normal">Normal border</p>
+    <p class="round1">Round border</p>
+    <p class="round2">Rounder border</p>
+    <p class="round3">Roundest border</p>
+    <style>
+        p.ex4 {
+            border: 1px solid black;
+            outline-style: dashed;
+            outline-color: red;
+            outline-width: 5px;
+        }
+
+        p.ex5 {
+            border: 1px solid black;
+            outline-style: solid;
+            outline-color: invert;
+        }
+
+        div.ex6 {
+            border: 1px solid black;
+            padding: 10px;
+            width: 200px;
+            height: 100px;
+            text-align: justify;
+        }
+
+        h1.ex7 {
+            text-shadow: 2px 2px 5px blue;
+            background-color: darkgray;
+        }
+    </style>
+    <p class="ex4">A 5px dashed outline</p>
+    <p class="ex5">A solid invert outline</p>
+    <div class="ex6">
+        Example text align justify. The text-align: justify; value stretches the lines so that each line has equal width (like in newspapers and magazines).
+    </div>
+    <h1 class="ex7">Text-shadow effect!</h1>
+    <p>Mouse over the words to change the cursor.</p>
+    <span style="cursor:auto">auto</span><br>
+    <span style="cursor:crosshair">crosshair</span><br>
+    <span style="cursor:default">default</span><br>
+    <span style="cursor:e-resize">e-resize</span><br>
+    <span style="cursor:help">help</span><br>
+    <span style="cursor:move">move</span><br>
+    <span style="cursor:n-resize">n-resize</span><br>
+    <span style="cursor:ne-resize">ne-resize</span><br>
+    <span style="cursor:nw-resize">nw-resize</span><br>
+    <span style="cursor:pointer">pointer</span><br>
+    <span style="cursor:progress">progress</span><br>
+    <span style="cursor:s-resize">s-resize</span><br>
+    <span style="cursor:se-resize">se-resize</span><br>
+    <span style="cursor:sw-resize">sw-resize</span><br>
+    <span style="cursor:text">text</span><br>
+    <span style="cursor:w-resize">w-resize</span><br>
+    <span style="cursor:wait">wait</span><br>
+    <style>
+        #imgp {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            z-index: -1;
+        }
+    </style>
+    <h1>This is a heading</h1>
+    <img id="imgp" src="https://www.w3schools.com/css/w3css.gif" width="100" height="140" />
+    <p>Because the image has a z-index of -1, it will be placed behind the text.</p>
+    <p>
+        <img src="https://www.w3schools.com/css/pineapple.jpg" alt="Pineapple" style="width:170px;height:170px;margin-left:15px;float:right;">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+    </p>
+    <style>
+        p.pseudoelement::first-line {
+            color: #ff0000;
+            font-variant: small-caps;
+        }
+    </style>
+    <p class="pseudoelement">You can use the ::first-line pseudo-element to add a special effect to the first line of a text. Some more text. And even more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more.</p>
+    <style>
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .desc {
+            padding: 15px;
+            text-align: center;
+        }
+    </style>
+    <p>Move the mouse over the image below to open the dropdown content.</p>
+    <div class="dropdown">
+        <img src="https://www.w3schools.com/css/img_5terre.jpg" alt="Cinque Terre" width="100" height="65">
+        <div class="dropdown-content">
+            <img src="https://www.w3schools.com/css/img_5terre.jpg" alt="Cinque Terre" width="300" height="200">
+            <div class="desc">Beautiful Cinque Terre</div>
+        </div>
+    </div>
+    <style>
+        body {
+            counter-reset: section;
+        }
+
+        h4::before {
+            counter-increment: section;
+            content: "Section " counter(section) ": ";
+        }
+    </style>
+    <h2>Using CSS Counters</h2>
+    <h4>HTML</h4>
+    <h4>CSS</h4>
+    <h4>JS</h4>
+    <style>
+        #borderimg {
+            border: 10px solid transparent;
+            padding: 15px;
+            border-image: url(https://www.w3schools.com/css/border.png) 30 stretch;
+            /* border-image: url(https://www.w3schools.com/css/border.png) 30 round; */
+        }
+    </style>
+    <p>Here, the middle sections of the image are stretched to create the border:</p>
+    <p id="borderimg">border-image: url(border.png) 30 stretch;</p>
+    <p>Here is the original image:</p><img src="https://www.w3schools.com/css/border.png">
+    <style>
+        #example1 {
+            background-image: url(https://www.w3schools.com/css/img_flwr.gif), url(https://www.w3schools.com/css/paper.gif);
+            background-position: right bottom, left top;
+            background-repeat: no-repeat, repeat;
+            padding: 15px;
+        }
+    </style>
+    <p>The following div element has two background images:</p>
+    <div id="example1">
+        <h1>Lorem Ipsum Dolor</h1>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+        <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <style>
+        #example11 {
+            border: 10px dotted black;
+            padding: 35px;
+            background: yellow;
+        }
+
+        #example12 {
+            border: 10px dotted black;
+            padding: 35px;
+            background: yellow;
+            background-clip: padding-box;
+        }
+
+        #example13 {
+            border: 10px dotted black;
+            padding: 35px;
+            background: yellow;
+            background-clip: content-box;
+        }
+    </style>
+    <h1>The background-clip Property</h1>
+    <p>No background-clip (border-box is default):</p>
+    <div id="example11">
+        <h2>Lorem Ipsum Dolor</h2>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+    </div>
+    <p>background-clip: padding-box:</p>
+    <div id="example12">
+        <h2>Lorem Ipsum Dolor</h2>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+    </div>
+    <p>background-clip: content-box:</p>
+    <div id="example13">
+        <h2>Lorem Ipsum Dolor</h2>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+    </div>
+    <style>
+        #grad1 {
+            height: 200px;
+            background-color: red; /* for browsers that do not support gradients */
+            background-image: linear-gradient(red, yellow);
+        }
+
+        #grad2 {
+            height: 200px;
+            background-color: red; /* for browsers that do not support gradients */
+            background-image: linear-gradient(to right, red, yellow);
+        }
+
+        #grad3 {
+            height: 200px;
+            background-color: red; /* for browsers that do not support gradients */
+            background-image: linear-gradient(to bottom right, red, yellow);
+        }
+
+        #grad4 {
+            height: 150px;
+            background-color: red; /* for browsers that do not support gradients */
+            background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+        }
+
+        #grad5 {
+            height: 150px;
+            width: 400px;
+            background-color: red; /* for browsers that do not support gradients */
+            background-image: radial-gradient(red, yellow, green, blue);
+        }
+    </style>
+    <p>This linear gradient starts red at the top, transitioning to yellow at the bottom:</p>
+    <div id="grad1"></div>
+    <p>This linear gradient starts red at the left, transitioning to yellow (to the right):</p>
+    <div id="grad2"></div>
+    <p>This linear gradient starts red at top left, transitioning to yellow (at bottom right):</p>
+    <div id="grad3"></div>
+    <br />
+    <div id="grad4" style="text-align:center;margin:auto;color:#888888;font-size:40px;font-weight:bold">
+        Rainbow Background
+    </div>
+    <div id="grad5"></div>
+    <style>
+        #grad6 {
+            height: 150px;
+            width: 150px;
+            background-color: red; /* For browsers that do not support gradients */
+            background-image: radial-gradient(closest-side at 60% 55%, red, yellow, black);
+        }
+
+        #grad7 {
+            height: 150px;
+            width: 150px;
+            background-color: red; /* For browsers that do not support gradients */
+            background-image: radial-gradient(farthest-side at 60% 55%, red, yellow, black);
+        }
+
+        #grad8 {
+            height: 150px;
+            width: 150px;
+            background-color: red; /* For browsers that do not support gradients */
+            background-image: radial-gradient(closest-corner at 60% 55%, red, yellow, black);
+        }
+
+        #grad9 {
+            height: 150px;
+            width: 150px;
+            background-color: red; /* For browsers that do not support gradients */
+            background-image: radial-gradient(farthest-corner at 60% 55%, red, yellow, black);
+        }
+    </style>
+    <h3>closest-side:</h3>
+    <div id="grad6"></div>
+    <h3>farthest-side:</h3>
+    <div id="grad7"></div>
+    <h3>closest-corner:</h3>
+    <div id="grad8"></div>
+    <h3>farthest-corner (default):</h3>
+    <div id="grad9"></div>
+    <style>
+        p.test1 {
+            writing-mode: horizontal-tb;
+        }
+
+        span.test2 {
+            writing-mode: vertical-rl;
+        }
+
+        p.test2 {
+            writing-mode: vertical-rl;
+        }
+    </style>
+    <h2>The writing-mode Property</h2>
+    <p class="test1">Some text with default writing-mode.</p>
+    <p>Some text with a span element with a <span class="test2">vertical-rl</span> writing-mode.</p>
+    <p class="test2">Some text with writing-mode: vertical-rl.</p>
+    <style>
+        div.scale {
+            margin: 150px;
+            width: 200px;
+            height: 100px;
+            background-color: yellow;
+            border: 1px solid black;
+            -ms-transform: scale(2,3); /* IE 9 */
+            transform: scale(2,3); /* Standard syntax */
+        }
+
+        div.skew {
+            width: 300px;
+            height: 100px;
+            background-color: yellow;
+            border: 1px solid black;
+        }
+
+            div.skew#myDiv {
+                -ms-transform: skew(20deg,10deg); /* IE 9 */
+                transform: skew(20deg,10deg); /* Standard syntax */
+            }
+
+        div.rotatex {
+            width: 300px;
+            height: 100px;
+            background-color: yellow;
+            border: 1px solid black;
+        }
+
+            div.rotatex#myDiv {
+                transform: rotateX(150deg);
+            }
+
+        div.transition1 {
+            width: 100px;
+            height: 100px;
+            background: red;
+            transition: width 2s;
+        }
+
+            div.transition1:hover {
+                width: 300px;
+            }
+    </style>
+    <p>The scale() method increases or decreases the size of an element.</p>
+    <div class="scale">
+        This div element is two times of its original width, and three times of its original height.
+    </div>
+    <p>The skew() method skews an element into a given angle.</p>
+    <div class="skew">
+        This a normal div element.
+    </div>
+    <div class="skew" id="myDiv">
+        This div element is skewed 20 degrees along the X-axis, and 10 degrees along the Y-axis.
+    </div>
+    <br /><br />
+    <p>The rotateX() method rotates an element around its X-axis at a given degree.</p>
+    <div class="rotatex">
+        This a normal div element.
+    </div>
+    <div class="rotatex" id="myDiv">
+        This div element is rotated 150 degrees.
+    </div>
+    <p>Hover over the div element below, to see the transition effect:</p>
+    <div class="transition1"></div>
+    <br />
+    <style>
+        div.animation1 {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: relative;
+            animation-name: example;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+        }
+
+        div.animation2 {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: relative;
+            animation-name: example;
+            animation-duration: 4s;
+            animation-iteration-count: 2;
+            animation-direction: alternate;
+        }
+
+        div.animation3 {
+            width: 100px;
+            height: 100px;
+            background: red;
+            position: relative;
+            animation-name: example;
+            animation-duration: 3s;
+            animation-fill-mode: forwards;
+        }
+
+        @keyframes example {
+            0% {
+                background-color: red;
+                left: 0px;
+                top: 0px;
+            }
+
+            25% {
+                background-color: yellow;
+                left: 200px;
+                top: 0px;
+            }
+
+            50% {
+                background-color: blue;
+                left: 200px;
+                top: 200px;
+            }
+
+            75% {
+                background-color: green;
+                left: 0px;
+                top: 200px;
+            }
+
+            100% {
+                background-color: red;
+                left: 0px;
+                top: 0px;
+            }
+        }
+
+        @keyframes example1 {
+            from {
+                top: 0px;
+            }
+
+            to {
+                top: 200px;
+                background-color: blue;
+            }
+        }
+    </style>
+    <div class="animation1"></div>
+    <br />
+    <div class="animation2"></div>
+    <br />
+    <div class="animation3"></div>
+    <br /><br /><br /><br /><br /><br /><br /><br />
+    <style>
+        .tooltip {
+            position: relative;
+            display: inline-block;
+            border-bottom: 1px dotted black;
+        }
+
+            .tooltip .tooltiptext {
+                visibility: hidden;
+                width: 120px;
+                background-color: black;
+                color: #ffffff;
+                text-align: center;
+                border-radius: 6px;
+                padding: 5px 0;
+                /* position the tooltip */
+                position: absolute;
+                z-index: 1;
+                top: 100%;
+                left: 50%;
+                margin-left: -60px;
+            }
+
+            .tooltip:hover .tooltiptext {
+                visibility: visible;
+            }
+    </style>
+    <div class="tooltip">
+        Hoover on me
+        <span class="tooltiptext">Tooltip text</span>
+    </div>
+    <br /><br />
+    <style>
+        #pineapple {
+            width: 33%;
+            height: auto;
+            float: left;
+            max-width: 235px;
+        }
+
+        .blur {
+            filter: blur(4px);
+        }
+
+        .brightness {
+            filter: brightness(250%);
+        }
+
+        .contrast {
+            filter: contrast(180%);
+        }
+
+        .grayscale {
+            filter: grayscale(100%);
+        }
+
+        .huerotate {
+            filter: hue-rotate(180deg);
+        }
+
+        .invert {
+            filter: invert(100%);
+        }
+
+        .opacity {
+            filter: opacity(50%);
+        }
+
+        .saturate {
+            filter: saturate(7);
+        }
+
+        .sepia {
+            filter: sepia(100%);
+        }
+
+        .shadow {
+            filter: drop-shadow(8px 8px 10px green);
+        }
+    </style>
+    <img id="pineapple" src="https://www.w3schools.com/css/pineapple.jpg" alt="Pineapple" width="300" height="300" />
+    <img id="pineapple" class="blur" src="https://www.w3schools.com/css/pineapple.jpg" alt="Pineapple" width="300" height="300">
+    <img id="pineapple" class="brightness" src="https://www.w3schools.com/css/pineapple.jpg" alt="Pineapple" width="300" height="300">
+    <img id="pineapple" class="contrast" src="https://www.w3schools.com/css/pineapple.jpg" alt="Pineapple" width="300" height="300">
+    <img id="pineapple" class="grayscale" src="https://www.w3schools.com/css/pineapple.jpg" alt="Pineapple" width="300" height="300">
+    <img id="pineapple" class="huerotate" src="https://www.w3schools.com/css/pineapple.jpg" alt="Pineapple" width="300" height="300">
+    <img id="pineapple" class="invert" src="https://www.w3schools.com/css/pineapple.jpg" alt="Pineapple" width="300" height="300">
+    <img id="pineapple" class="opacity" src="https://www.w3schools.com/css/pineapple.jpg" alt="Pineapple" width="300" height="300">
+    <img id="pineapple" class="saturate" src="https://www.w3schools.com/css/pineapple.jpg" alt="Pineapple" width="300" height="300">
+    <img id="pineapple" class="sepia" src="https://www.w3schools.com/css/pineapple.jpg" alt="Pineapple" width="300" height="300">
+    <img id="pineapple" class="shadow" src="https://www.w3schools.com/css/pineapple.jpg" alt="Pineapple" width="300" height="300">
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <p id="demo11">JavaScript can change HTML content</p>
+    <button type="button" onclick="document.getElementById('demo11').innerHTML = 'Hello JS'">Click</button>
+    <p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+    <button type="button" onclick="document.getElementById('imglight').src='https://www.w3schools.com/js/pic_bulbon.gif'">Turn on the light</button>
+    <img id="imglight" src="https://www.w3schools.com/js/pic_bulboff.gif" style="width: 150px; height: auto;" />
+    <button type="button" onclick="document.getElementById('imglight').src='https://www.w3schools.com/js/pic_bulboff.gif'">Turn off the light</button>
+    <p id="demo12">JavaScript can change the style of an HTML element</p>
+    <button type="button" onclick="document.getElementById('demo12').style.fontSize='35px'">Click Me!</button>
+    <script type="text/javascript">
+        function Add(x, y) {
+            return x + y;
+        }
+        alert(Add(2, 3));
+    </script>
+    <p id="demo2">You cannot break a code line with a \ backslash.</p>
+    <script>
+        document.getElementById("demo2").innerHTML = \
+        "Hello Dolly.";
+    </script>
+    <h4>JS string.trim()</h4>
+    <p>IE 8 does not support String.trim(). To trim a string you can use a polyfill.</p>
+    <script>
+        if (!String.prototype.trim) {
+            String.prototype.trim = function () {
+                return this.replace(/^[\s\uFEFF\xAO]+|[\s\uFEFF\xAO]+$/g, '');
+            };
+        }
+        var str = "         Hello World!     ";
+        alert(str.trim());
+    </script>
+    <p>The toString() method can output numbers from base 2 to 36:</p>
+    <p id="demo3"></p>
+    <script>
+        var num = 32;
+        document.getElementById("demo3").innerHTML = "32 = " + "<br>" +
+            " Decimal " + num.toString(10) + "<br>" +
+            " Hexadecimal " + num.toString(16) + "<br>" +
+            " Octal " + num.toString(8) + "<br>" +
+            " Binary " + num.toString(2);
+    </script>
+    <p>Click the button to sort the array in ascending order.</p>
+    <button onclick="myFunction()">Click</button>
+    <p id="demo4"></p>
+    <script>
+        var points = [40, 100, 1, 5, 25, 10];
+        document.getElementById("demo4").innerHTML = points;
+
+        function myFunction() {
+            points.sort(function (a, b) { return a - b });
+            document.getElementById("demo4").innerHTML = points;
+        }
+    </script>
+    <p>Click the buttons to sort the array alphabetically or numerically.</p>
+    <button onclick="myFunction1()">Sort Alphabetically</button>
+    <button onclick="myFunction2()">Sort Numerically</button>
+    <p id="demo5"></p>
+    <script>
+        var points = [40, 100, 1, 5, 25, 10];
+        document.getElementById("demo5").innerHTML = points;
+
+        function myFunction1() {
+            points.sort();
+            document.getElementById("demo5").innerHTML = points;
+        }
+        function myFunction2() {
+            points.sort(function (a, b) { return a - b });
+            document.getElementById("demo5").innerHTML = points;
+        }
+    </script>
+    <h3>The Fisher Yates Method</h3>
+    <p>Click the button (again and again) to sort the array in random order.</p>
+    <button onclick="myFunction()">Fisher Yates shuffle</button>
+    <p id="demo6"></p>
+    <script>
+        var points = [40, 100, 1, 5, 25, 10];
+        document.getElementById("demo6").innerHTML = points;
+        function myFunction() {
+            var i, j, k;
+            for (i = points.length - 1; i > 0; i--) {
+                j = Math.floor(Math.random() * i)
+                k = points[i]
+                points[i] = points[j]
+                points[j] = k
+            }
+            document.getElementById("demo6").innerHTML = points;
+        }
+    </script>
+    <p>The toUTCString() method converts a date to a UTC string (a date display standard):</p>
+    <p id="demo7"></p>
+    <script>
+        var d = new Date();
+        document.getElementById("demo7").innerHTML = d.toUTCString();
+    </script>
+    <p>The internal clock in JavaScript counts from midnight January 1, 1970.</p>
+    <h4>JS Date get methods</h4>
+    <p id="demo8"></p>
+    <script>
+        var d = new Date();
+        document.getElementById("demo8").innerHTML = "The getTime() function returns the number of milliseconds since then: " + d.getTime() +
+            "<br>" + "The getFullYear() method returns the full year of a date: " + d.getFullYear() +
+            "<br>" + "The getMonth() method returns the month of a date as a number (0-11): " + d.getMonth() +
+            "<br>" + "The getDate() method returns the day of a date as a number (1-31): " + d.getDate() +
+            "<br>" + "The getDay() method returns the weekday as a number: " + d.getDay();
+    </script>
+    <script>
+        document.write(
+            "<p><b>Math.E:</b> " + Math.E + "</p>" +
+            "<p><b>Math.PI:</b> " + Math.PI + "</p>" +
+            "<p><b>Math.SQRT2:</b> " + Math.SQRT2 + "</p>" +
+            "<p><b>Math.SQRT1_2:</b> " + Math.SQRT1_2 + "</p>" +
+            "<p><b>Math.LN2:</b> " + Math.LN2 + "</p>" +
+            "<p><b>Math.LN10:</b> " + Math.LN10 + "</p>" +
+            "<p><b>Math.LOG2E:</b> " + Math.LOG2E + "</p>" +
+            "<p><b>Math.Log10E:</b> " + Math.LOG10E + "</p>");
+    </script>
+    <h2>JavaScript switch</h2>
+    <p id="demo9"></p>
+    <script>
+        var x = "0";
+        switch (x) {
+            case 0:
+                text = "Off";
+                break;
+            case 1:
+                text = "On";
+                break;
+            default:
+                text = "No value found";
+        }
+        document.getElementById("demo9").innerHTML = text;
+        var a = function () { }.constructor
+        document.write(a);
+        document.write("<br>" + 5 ^ 1);
+    </script>
+    <script>
+        function dec2bin(dec) {
+            return (dec >>> 0).toString(2);
+        }
+
+        function bin2dec(bin) {
+            return parseInt(bin, 2).toString(10);
+        }
+
+        var obj = /e/.exec("hwejklfhlkasdjlAWEQTJ4321Facwerqxcgrwfee");
+        document.write("<br>");
+        document.write("Found " + obj[0] + " in position " + obj.index + " in the text: " + obj.input);
+        document.write("<br>");
+        var x;
+        try {
+            x = y + 1;   // y cannot be referenced (used)
+        }
+        catch (err) {
+            document.write(err.name);
+        }
+        document.write("<br>")
+        var num = 1;
+        try {
+            num.toUpperCase();   // You cannot convert a number to upper case
+        }
+        catch (err) {
+            document.write(err.name);
+        }
+        document.write("<br>");
+    </script>
+    <bdo dir="rtl">This text will be written from right to left</bdo>
+    <h3>Getters and setters allow to get and set properties via methods</h3>
+    <p id="demo10"></p>
+    <script>
+        var person = {
+            firstName: "John",
+            lastName: "Doe",
+            language: "NO",
+            get lang() {
+                return this.language;
+            },
+            set lang(value) {
+                this.language = value;
+            }
+        };
+
+        person.lang = "en";
+        document.getElementById("demo10").innerHTML = person.language;
+
+        Object.defineProperty(person, "language", {
+            get: function () { return language },
+            set: function (value) { language = value.toUpperCase() }
+        })
+    </script>
+    <script>
+        const person2 = {
+            firstName: "John",
+            lastName: "Doe",
+            age: 50,
+            eyeColor: "blue"
+        };
+        document.write(Object.entries(person2));
+        document.write("<br>");
+    </script>
+    <script>
+        async function display() {
+            let promise = new Promise(function (resolve, reject) {
+                setTimeout(function () { resolve("I love You !!"); }, 3000);
+            });
+            document.write(await promise);
+            document.write("<br>");
+        }
+    </script>
+    <h3>Validating numeric input (1-10 included)</h3>
+    <input id="numb" />
+    <button type="submit" onclick="function2()">Submit</button>
+    <p id="demo13"></p>
+    <script>
+        function function2() {
+            var x, text;
+            x = document.getElementById("numb").value;
+            if (isNaN(x) || x < 1 || x > 10) {
+                text = "Input is not valid";
+            } else {
+                text = "Input is OK";
+            }
+            document.getElementById("demo13").innerHTML = text;
+        }
+    </script>
+    <input id="id1" type="number" min="100">
+    <button onclick="myFunction()">OK</button>
+    <p>If the number is less than 100 (the input's min attribute), an error message will be displayed.</p>
+    <p id="demo14"></p>
+    <script>
+        function myFunction() {
+            var txt = "";
+            if (document.getElementById("id1").validity.rangeUnderflow) {
+                txt = "Value too small";
+            } else {
+                txt = "Input OK";
+            }
+            document.getElementById("demo14").innerHTML = txt;
+        }
+    </script>
+    <h3>JavaScript getters and setters</h3>
+    <p id="demo15"></p>
+    <script>
+        var obj = { counter: 0 };
+        Object.defineProperty(obj, "reset", {
+            get: function () { this.counter = 0; }
+        });
+        Object.defineProperty(obj, "increment", {
+            get: function () { this.counter++; }
+        });
+        Object.defineProperty(obj, "decrement", {
+            get: function () { this.counter--; }
+        });
+        Object.defineProperty(obj, "add", {
+            set: function (value) { this.counter += value; }
+        });
+        Object.defineProperty(obj, "subtract", {
+            set: function (value) { this.counter -= value; }
+        });
+
+        obj.reset;
+        obj.add = 5;
+        obj.subtract = 1;
+        obj.increment;
+        obj.decrement;
+        document.getElementById("demo15").innerHTML = obj.counter;
+    </script>
+    <script>
+        var x1 = {};    // object
+        var x2 = "";    // string
+        var x3 = 0;     // number
+        var x4 = false;   // boolean
+        var x5 = [];    // object (not array)
+        var x6 = /()/;    // object
+        var x7 = function () { };  // function
+
+        /*
+        var x1 = new Object();    // A new Object object
+        var x2 = new String();    // A new String object
+        var x3 = new Number();    // A new Number object
+        var x4 = new Boolean();   // A new Boolean object
+        var x5 = new Array();     // A new Array object
+        var x6 = new RegExp();    // A new RegExp object
+        var x7 = new Function();  // A new Function object
+        var x8 = new Date();      // A new Date object
+        */
+
+        // Display the type of all
+        document.write(
+            "x1: " + typeof x1 + "<br>" +
+            "x2: " + typeof x2 + "<br>" +
+            "x3: " + typeof x3 + "<br>" +
+            "x4: " + typeof x4 + "<br>" +
+            "x5: " + typeof x5 + "<br>" +
+            "x6: " + typeof x6 + "<br>" +
+            "x7: " + typeof x7 + "<br>");
+
+        var multiply = new Function("a", "b", "return a * b");
+        var x = multiply(4, 3);
+        var multiply2 = function (a, b) { return a * b };
+        document.write(x + "<br>");
+        function myFunction(a, b) {
+            return arguments.length;
+        }
+        document.write(myFunction.toString() + "<br>");
+        const x = (x, y) => x * y;
+        const a = b => a ** b; // paranthesis omitted because there is only 1 parameter, return and curly braces omitted because function has a single statement
+    </script>
+    <script>
+        function sumAll() {
+            var i;
+            var sum = 0;
+            for (i = 0; i < arguments.length; i++) {
+                sum += arguments[i];
+            }
+            return sum;
+        }
+    </script>
+    <button type="button" onclick="ff1()">Count!</button>
+    <p id="demo16">0</p>
+    <script>
+        var add = (function () {
+            var counter = 0;
+            return function () {
+                counter += 1;
+                return counter;
+            }
+        })();
+
+        function ff1() {
+            document.getElementById("demo16").innerHTML = add();
+        }
+
+        class Car {
+            constructor(name, year) {
+                this.name = name;
+                this.year = year;
+            }
+
+            constructor(brand) {
+                this.name = brand;
+            }
+
+            age() {
+                let date = new Date();
+                return date.getFullYear - this.year;
+            }
+
+            present() {
+                return "I have a " + this.name;
+            }
+
+            get cnam() {
+                return this.name;
+            }
+
+            set cnam(x) {
+                this.name = x;
+            }
+        }
+
+        class Model extends Car {
+            constructor(brand, mod) {
+                super(brand);
+                this.model = mod;
+            }
+
+            show() {
+                return this.present() + ", it is a " + this.model;
+            }
+        }
+
+        let car = new Model("Ford", "Mustang");
+
+        function myDisplayer(some) {
+            document.getElementById("demo").innerHTML = some;
+        }
+
+        function myCalculator(num1, num2, callBackFunc) {
+            let sum = num1 + num2;
+            callBackFunc(sum);
+        }
+
+        myCalculator(5, 5, myDisplayer);
+    </script>
+    <h1 id="demo17"></h1>
+    <h1 id="demo18"></h1>
+    <script>
+        setTimeout(function3, 3000);
+
+        function function3() {
+            document.getElementById("demo17").innerHTML = "text";
+        }
+
+        setInterval(function4, 1000);
+
+        function function4() {
+            let d = new Date();
+            document.getElementById("demo18").innerHTML = d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds();
+        }
+
+        function myDisplayer(some) {
+            document.getElementById("demo").innerHTML = some;
+        }
+
+        function getFile(myCallback) {
+            let req = new XMLHttpRequest();
+            req.open('GET', "mycar.html");
+            req.onload = function () {
+                if (req.status == 200) {
+                    myCallback(this.responseText);
+                } else {
+                    myCallback("Error: " + req.status);
+                }
+            }
+            req.send();
+        }
+
+        getFile(myDisplayer);
+    </script>
+    <h3>JS Promise</h3>
+    <p>Wait 3 seconds (3000 milliseconds) for this page to change.</p>
+    <h1 id="demo19"></h1>
+    <script>
+        let promise = new Promise(function (resolve, reject) {
+            setTimeout(function () { resolve("Text"); }, 3000);
+        });
+
+        promise.then(function (value) {
+            document.getElementById("demo19").innerHTML = value;
+        });
+    </script>
+    <p id="demo20"></p>
+    <script>
+        document.getElementById("demo20").innerHTML = document.lastModified;
+    </script>
+    <h2 id="demo21">Heading</h2>
+    <button type="button" onclick="document.getElementById('demo21').style.color = 'red'">Click</button>
+    <p id="demo22"></p>
+    <script>
+        function checkCookies() {
+            var text = "";
+            if (navigator.cookieEnabled == true) {
+                text = "Cookies are enabled";
+            } else {
+                text = "Cookies are not enabled";
+            }
+            document.getElementById("demo22").innerHTML = text;
+        }
+    </script>
+    <div onmouseover="mOver(this)" onmouseout="mOut(this)"
+         style="background-color:#D94A38;width:120px;height:20px;padding:40px;">
+        Mouse Over Me
+    </div>
+    <script>
+        function mOver(obj) {
+            obj.innerHTML = "Thank You"
+        }
+
+        function mOut(obj) {
+            obj.innerHTML = "Mouse Over Me"
+        }
+    </script>
+    <div onmousedown="mDown(this)" onmouseup="mUp(this)"
+         style="background-color:#D94A38;width:90px;height:20px;padding:40px;">
+        Click Me
+    </div>
+    <script>
+        function mDown(obj) {
+            obj.style.backgroundColor = "#1ec5e5";
+            obj.innerHTML = "Release Me";
+        }
+
+        function mUp(obj) {
+            obj.style.backgroundColor = "#D94A38";
+            obj.innerHTML = "Thank You";
+        }
+    </script>
+    <h2 onmouseover="style.color='red'" onmouseout="style.color='black'">Mouse over this text</h2>
+    <p>This example uses the addEventListener() method to add many events on the same button.</p>
+    <button id="myBtn">Click</button>
+    <p id="demo23"></p>
+    <script>
+        var x = document.getElementById("myBtn");
+        x.addEventListener("mouseover", myFunction);
+        x.addEventListener("click", mySecondFunction);
+        x.addEventListener("mouseout", myThirdFunction);
+
+        function myFunction() {
+            document.getElementById("demo23").innerHTML += "Moused over!<br>";
+        }
+
+        function mySecondFunction() {
+            document.getElementById("demo23").innerHTML += "Clicked!<br>";
+        }
+
+        function myThirdFunction() {
+            document.getElementById("demo23").innerHTML += "Moused out!<br>";
+        }
+    </script>
+    <style>
+        #myDiv1, #myDiv2 {
+            background-color: coral;
+            padding: 50px;
+        }
+
+        #myP1, #myP2 {
+            background-color: white;
+            font-size: 20px;
+            border: 1px solid;
+            padding: 20px;
+        }
+    </style>
+    <h2>JavaScript addEventListener()</h2>
+    <div id="myDiv1">
+        <h2>Bubbling:</h2>
+        <p id="myP1">Click me!</p>
+    </div><br>
+    <div id="myDiv2">
+        <h2>Capturing:</h2>
+        <p id="myP2">Click me!</p>
+    </div>
+    <script>
+        document.getElementById("myP1").addEventListener("click", function () {
+            alert("You clicked the white element!");
+        }, false);
+
+        document.getElementById("myDiv1").addEventListener("click", function () {
+            alert("You clicked the orange element!");
+        }, false);
+
+        document.getElementById("myP2").addEventListener("click", function () {
+            alert("You clicked the white element!");
+        }, true);
+
+        document.getElementById("myDiv2").addEventListener("click", function () {
+            alert("You clicked the orange element!");
+        }, true);
+    </script>
+    <h2>Replacing HTML elements</h2>
+    <div id="div16">
+        <p id="p1">This is a paragraph.</p>
+        <p id="p2">This is another paragraph.</p>
+    </div>
+
+    <script>
+        var parent = document.getElementById("div16");
+        var child = document.getElementById("p1");
+        var paragraph = document.createElement("p");
+        var node = document.createTextNode("This is new.");
+        paragraph.appendChild(node);
+        parent.replaceChild(paragraph, child);
+    </script>
+    <script>
+        var collection = document.getElementsByTagName("p");
+        document.write("The number of p elements: " + collection.length + "<br>");
+        document.write("First p element's content: " + collection[0].innerHTML + "<br>");
+        var nodelist = document.querySelectorAll("p");
+        document.write("The number of paragraphs (p elements): " + nodelist.length + "<br>");
+        document.write("window.innerHeight: " + window.innerHeight + "<br>" + "window.innerWidth: " + window.innerWidth + "<br>");
+    </script>
+    <p id="demo24"></p>
+    <p id="demo25"></p>
+    <script>
+        document.getElementById("demo24").innerHTML = "Screen width: " + screen.width + " , screen height: " + screen.height;
+        document.getElementById("demo25").innerHTML = "Available screen width: " + screen.availWidth + " , available screen height: " + screen.availHeight + "<br>"
+            + "Screen color depth: " + screen.colorDepth + "<br>" + "Screen pixel depth: " + screen.pixelDepth + "<br>"
+            + "Page location: " + window.location.href + " and " + document.URL + "<br>"
+            + "Page hostname: " + window.location.hostname + "<br>"
+            + "Page path: " + window.location.pathname + "<br>"
+            + "Page protocol: " + window.location.protocol + "<br>"
+            + "Port number: " + window.location.port + "<br>"
+            /* Most browsers will not display default port numbers (80 for http and 443 for https) */
+            + "navigator.appName: " + window.navigator.appName + "<br>"
+            + "navigator.appCodeName: " + window.navigator.appCodeName + "<br>"
+            + "navigator.product: " + window.navigator.product + "<br>"
+            + "navigator.appVersion: " + window.navigator.appVersion + "<br>"
+            + "navigator.userAgent: " + window.navigator.userAgent + "<br>"
+            + "navigator.platform: " + window.navigator.platform + "<br>"
+            + "navigator.language: " + window.navigator.language + "<br>"
+            + "navigator.onLine: " + window.navigator.onLine + "<br>"
+            + "navigator.javaEnabled(): " + window.navigator.javaEnabled() + "<br>"
+    </script>
+    <p id="demo26"></p>
+    <button onclick="function5()">Click</button>
+    <script>
+        function function5() {
+            var txt;
+            var person = prompt("Please enter your name:", "Harry Potter");
+            if (person == null || person == "") {
+                txt = "User cancelled the prompt";
+            } else {
+                txt = "Hello " + person + "! How are you today?";
+            }
+            document.getElementById("demo26").innerHTML = txt;
+        }
+    </script>
+    <p id="demo27"></p>
+    <button onclick="clearInterval(var1)">Stop time</button>
+    <script>
+        var var1 = setInterval(myTimer, 1000);
+        function myTimer() {
+            var d = new Date();
+            document.getElementById("demo27").innerHTML = d.toLocaleTimeString();
+            // document.getElementById("demo27").innerHTML = d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds();
+        }
+    </script>
+    <script>
+        function setCookie(cname, cvalue, exdays) {
+            var d = new Date();
+            d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+            var expires = "expires=" + d.toUTCString();
+            document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+        }
+
+        function getCookie(cname) {
+            var name = cname + "=";
+            var decodedCookie = decodeURIComponent(document.cookie);
+            var ca = decodedCookie.split(";");
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) == " ") {
+                    c = c.substring(1);
+                }
+                if (c.indexOf(name) == 0) {
+                    return c.substring(name.length, c.length);
+                }
+            }
+            return "";
+        }
+
+        function checkCookie() {
+            var user = getCookie("username");
+            if (user != "") {
+                alert("Welcome again " + user);
+            } else {
+                user = prompt("Please enter your name: ", "");
+                if (user != "" && user != null) {
+                    setCookie("username", user, 365);
+                }
+            }
+        }
+    </script>
+    <h2>The XMLHttpRequest Object</h2>
+    <button type="button" onclick="loadDoc()">Request data</button>
+    <p id="demo28"></p>
+    <script>
+        function loadDoc() {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    document.getElementById("demo28").innerHTML = this.responseText;
+                }
+            };
+            xhttp.open("GET", "demo_get2.asp?fname=Henry?lname=Ford", true);
+            xhttp.send();
+            var xmlDoc = xhttp.responseXML;
+            txt = "";
+            x = xmlDoc.getElementsByTagName("ARTIST");
+            for (var i = 0; i < x.length; i++) {
+                txt += x[i].childNodes[0].nodeValue + "<br>";
+            }
+            document.getElementById("demo").innerHTML = txt;
+            xhttp.open("GET", "cd_catalog.xml", true);
+            xhttp.send();
+        }
+    </script>
+    <script>
+        function loadDoc() {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    myFunction(this);
+                }
+            };
+            xhttp.open("GET", "cd_catalog.xml", true);
+            xhttp.send();
+        }
+
+        function myFunction(xml) {
+            var i;
+            var xmlDoc = xml.responseXML;
+            var table = "<tr><th>Artist</th><th>Title</th></tr>";
+            var x = xmlDoc.getElementsByTagName("CD");
+            for (i = 0; i < x.length; i++) {
+                table += "<tr><td>" +
+                    x[i].getElementsByTagName("ARTIST")[0].childNodes[0].nodeValue +
+                    "</td><td>" +
+                    x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue +
+                    "</td></tr>";
+            }
+            document.getElementById("demo").innerHTML = table;
+        }
+
+        function myFunction2(xml, i) {
+            var xmlDoc = xml.responseXML;
+            x = xmlDoc.getElementsByTagName("CD");
+            document.getElementById("showCD").innerHTML =
+                "Artist: " +
+                x[i].getElementsByTagName("ARTIST")[0].childNodes[0].nodeValue +
+                "<br>Title: " +
+                x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue +
+                "<br>Year: " +
+                x[i].getElementsByTagName("YEAR")[0].childNodes[0].nodeValue;
+        }
+    </script>
+    <p>Looping through arrays inside arrays.</p>
+    <p id="demo29"></p>
+    <script>
+        var obj, i, j, x = "";
+        obj = {
+            "name": "John",
+            "age": 30,
+            "cars": [
+                { "name": "Ford", "models": ["Fiesta", "Focus", "Mustang"] },
+                { "name": "BMW", "models": ["320", "X3", "X5"] },
+                { "name": "Fiat", "models": ["500", "Panda"] }
+            ]
+        }
+        for (i in obj.cars) {
+            x += "<h2>" + obj.cars[i].name + "</h2>";
+            for (j in obj.cars[i].models) {
+                x += obj.cars[i].models[j] + "<br>";
+            }
+        }
+        document.getElementById("demo29").innerHTML = x;
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("button.jquery1").click(function () {
+                $("#divj1").fadeIn();
+                $("#divj2").fadeIn("slow");
+                $("#divj3").fadeIn(3000);
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $("button.jquery2").click(function () {
+                $("divj1").fadeTo("slow", 0.15);
+                $("divj2").fadeTo("slow", 0.4);
+                $("divj3").fadeTo("slow", 0.7);
+            });
+        });
+    </script>
+    <p>Demonstrate fadeIn() with different parameters.</p>
+    <button class="jquery1">Click to fade in boxes</button><br>
+    <button class="jquery2">Click to fade boxes</button>
+    <br>
+    <div id="divj1" style="width:80px;height:80px;display:none;background-color:red;"></div><br>
+    <div id="divj2" style="width:80px;height:80px;display:none;background-color:green;"></div><br>
+    <div id="divj3" style="width:80px;height:80px;display:none;background-color:blue;"></div>
+    <p id="testj1">This is a paragraph.</p>
+    <p id="testj2">This is another paragraph.</p>
+    <p>Input field: <input type="text" id="testj3" value="Mickey Mouse"></p>
+    <button id="btnj1">Set Text</button>
+    <button id="btnj2">Set HTML</button>
+    <button id="btnj3">Set Value</button>
+    <style>
+        #divee {
+            background-color: coral;
+            border: 1px solid;
+            padding: 50px;
+            color: white;
+            font-size: 20px;
+        }
+    </style>
+    <h2>JS removeEventListener()</h2>
+    <div id="divee">
+        <p>This div element has an onmousemove event handler that displays a random number every time you move your mouse inside this orange field.</p>
+        <p>Click the button to remove the div's event handler.</p>
+        <button onclick="removeHandler()" id="myBtn1">Remove</button>
+    </div>
+    <p id="demo30"></p>
+    <script>
+        document.getElementById("divee").addEventListener("mousemove", function6);
+        function function6() {
+            document.getElementById("demo30").innerHTML = Math.random();
+        }
+
+        function removeHandler() {
+            document.getElementById("divee").removeEventListener("mousemove", function6);
+        }
+
+        document.write(String({}));
+    </script>
+</body>
+</html>
+
+<!--
+    <div> for position the content on the page, <span> for apply special formatting to the content
+    <header> and <footer> elements
+    <header> and <footer> can also used in the <article> element
+    <aside> typically used for sidebars
+    <section> -> part of the whole that is typically named with an <h1> to <h6> element internal element
+    <header> element can also contain the <hgroup> element, which provides the ability to group one or more <hn> elements within a <header> element
+    <hgroup> -> wrapper for one or more related header elements, most commonly used for subtitles and alternative titles
+    By default, an unvisited link is underlined and blue, a visited link is underlined and purple, an active link is underlined and red
+    <div> and <span> non-semantic elements. Examples of semantic elements: <form>, <table>, <article>, clearly defines its content
+-->

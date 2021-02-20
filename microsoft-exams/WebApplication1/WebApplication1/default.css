@@ -1,0 +1,201 @@
+﻿body {
+
+}
+/* Set the background-size property to "cover" and the background image will cover the entire element, in this case the body element */
+/*
+body {
+    background-image: url('img_girl.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+*/
+
+li:nth-child(even) {
+    font-size: small;
+}
+
+li:nth-child(4) {
+    font-size: inherit;
+}
+
+/*
+div ~ h1 {
+    background-color: yellow;
+}
+*/
+
+div + h1 {
+    background-color: yellow;
+}
+
+@font-face {
+    font-family: 'font name';
+    src: url('/content/file.eot');
+    src: local('☺'), url('/content/file.woff') format('woff'), url('/content/file.ttf') format('truetype');
+}
+
+/* Pseudo-classes (:link, :visited, :active, :hover, :focus, :checked, :lang(language), :not, :nth-child(formula), :nth-last-child(n), :only-child, :only-of-type, :first-of-type) */
+/* unvisited link */
+/*
+a:link {
+    color: #FF0000;
+}
+*/
+
+/* visited link */
+/*
+a:visited {
+    color: #00FF00;
+}
+*/
+
+/* mouse over link */
+/*
+a:hover {
+    color: #FF00FF;
+}
+*/
+
+/* selected link */
+/*
+a:active {
+    color: #0000FF;
+}
+*/
+
+/* attribute contains value selector */
+/*
+a[href*='contoso.com']:hover {
+    background-color: yellow;
+}
+*/
+
+/* attribute value starts with selector */
+a[href^="http"]:hover {
+    background-color: red;
+}
+
+/* attribute value ends with selector */
+a[href$='jpg']:hover {
+    background-color: blue;
+}
+
+/* attribute contains value in list selector */
+a[data-linktype ~='externalLink'] {
+    background-color: yellow;
+}
+
+a[data-linktype ~='internalLink'] {
+    background-color: lime;
+}
+
+a[data-linktype ~='imageFile']:after {
+    content: '(img)';
+}
+
+a[data-linktype ~='zipFile']:after {
+    content: '(zip)';
+}
+
+/*
+■ black #000000
+■ white #ffffff
+■ red #ff0000
+■ green #008000
+■ lime #00ff00
+■ blue #0000ff
+■ yellow #ffff00
+■ gray #808080
+*/
+
+p {
+    margin: 0px;
+    padding: 2px 5px;
+}
+
+div {
+    border: solid;
+    border-color: black;
+}
+
+#div1 {
+    background-color: yellow;
+}
+
+#div2 {
+    background-color: cyan;
+}
+
+#div3 {
+    background-color: lightpink;
+    float: left;
+    width: 32%;
+    box-sizing: border-box;
+}
+
+#div4 {
+    background-color: orange;
+    float: left;
+    width: 32%;
+    box-sizing: border-box;
+}
+
+#div5 {
+    background-color: lightblue;
+    float: left;
+    width: 32%;
+    box-sizing: border-box;
+}
+
+#div6 {
+    background-color: lightgray;
+    text-decoration: overline;
+    text-transform: uppercase;
+    clear: both;
+}
+
+#container {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #dddddd;
+    border-spacing: 10px;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: left;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+
+/*
+    An element contains content immediately surrounded by the padding, which is then surrounded by the border, which is then surrounded by the margin
+    background-size: 100% 100% -> to stretch the background image to fit the entire element
+*/

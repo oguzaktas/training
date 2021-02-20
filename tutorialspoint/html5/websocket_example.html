@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebSocket Example</title>
+    <script type="text/javascript">
+        function WebSocketTest() {
+            if ("WebSocket" in window) {
+                alert("WebSocket is not supported by your browser");
+                var ws = new WebSocket("ws://localhost:9998/echo");
+                ws.onopen = function() {
+                    // WebSocket is connected, send data using send()
+                    ws.send("Message to send");
+                    alert("Message is sent...");
+                };
+                ws.onmessage = function (evt) { 
+                    var received_msg = evt.data;
+                    alert("Message is received...");
+               };
+               ws.onclose = function() {
+                   // WebSocket is closed
+                   alert("Connection is closed...");
+               };
+            } else {
+                // The browser does not support WebSocket
+                alert("WebSocket is not supported by your browser");
+            }
+        }
+    </script>
+</head>
+<body>
+    <div id="sse">
+        <a href="javascript:WebSocketTest()">Run WebSocket</a>
+    </div>
+</body>
+</html>
