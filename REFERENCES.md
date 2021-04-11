@@ -1,1 +1,0 @@
- - Airbus ship detection: 
